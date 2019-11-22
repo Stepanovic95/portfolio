@@ -1,2 +1,2 @@
 # portfolio
-:)
+Moj developerski portfolio :)
