@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
-Kontakt:
+    <div class="container"></div>
+    <form action="action_page.php">
+        <label for="iIme" style="margin-right:27px">
+            Ime
+        </label>
+        
+        <input type="text" id="fIme" name="Ime" placeholder="Ime..">
+        <br>
+        <label for="lPrezime">
+            Prezime
+        </label>
+
+        <input type="text" id="lPrezime" name="Prezime" placeholder="Prezime..">
+        <br>
+        <label type="lKomentar">Komentar </label>
+        <br>
+        <textarea id="subject" name="subject" placeholder="Napisite nesto.." style="height:150px"></textarea>
+        <br>
+        <button type="submit" style="margin-right: 50px;"> Posalji</button>
+    </form>
 </body>
+
 </html>

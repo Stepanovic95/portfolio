@@ -1,22 +1,64 @@
 body {
-    background-color: rgb(186, 186, 240);
+    background-color: rgb(177, 177, 192);
     margin-left: 20%;
     margin-right: 20%;
-     font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.font2 {
+    font-family: 'Great Vibes', cursive;
+
 
 }
 
 h1 {
+
     font: oblique;
     color: rgb(21, 1, 54);
 
 }
-nav {
-    background: pink;
-    border: 1px solid purple;
-    padding: 2px 8px;
+
+.link11 {
+    background-color: rgb(86, 45, 88);
+    color: white;
+    padding: 0.5em 1em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.link12 {
+    background-color: rgb(136, 35, 35);
+    color: white;
+    padding: 0.5em 1em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 20px;
+
 
 }
+
+.link13 {
+    background-color: rgb(86, 45, 88);
+    color: white;
+    padding: 0.5em 1em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+nav {
+
+    text-align: center
+}
+
 
 .center {
     text-align: center;
